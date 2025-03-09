@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+     font-family: 'Poppins', sans-serif;
+    background-image: url(../IMG/bg.jpg);
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-login {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 5px 10px 8px rgb(54, 54, 55);
+    border-radius: 10px;
+    font-size: 1.4rem;
+    
+}
+
+.container-login h2 {
+    margin-bottom: 20px;
+}
+
+.container-login .register-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.register-box {
+    width: 100%;
+}
+
+.container-login .register-box .terms {
+    display: flex;
+    gap: 5px;
+    width: 20%;
+    transform: scale(0.8);
+    text-align: left;
+}
+
+.container-login .register-box .terms .text {
+    font-size: 1rem;
+}
+
+.container-login .btn button {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px 20px; 
+    width: 100%;
+    background-color: #222; 
+    color: white; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 30px;
+}
+
+.container-login .btn button:hover {
+    background-color: #333333;
+}
+
+.container-login .change {
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
